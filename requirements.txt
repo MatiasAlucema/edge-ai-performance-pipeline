@@ -1,0 +1,23 @@
+# ─────────────────────────────────────────────────────
+# requirements.txt — Edge Robotics AI Performance Pipeline
+# ─────────────────────────────────────────────────────
+# Tested with Python 3.10 / 3.11 / 3.12
+# On Jetson (JetPack 6+): TensorRT and pycuda are pre-installed.
+# Replace onnxruntime with onnxruntime-gpu for CUDA execution provider.
+
+torch>=2.1.0
+torchvision>=0.16.0
+onnx>=1.15.0
+onnxruntime>=1.16.0
+onnxsim>=0.4.35
+onnxscript>=0.1.0
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.6.0
+numpy>=1.24.0
+opencv-python-headless>=4.8.0
+
+# TensorRT and pycuda — only needed for trt_engine.py
+# On Jetson: pre-installed via JetPack. On x86: pip install tensorrt pycuda
+# tensorrt>=8.6
+# pycuda>=2022.1
