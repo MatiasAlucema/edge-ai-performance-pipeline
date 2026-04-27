@@ -5,6 +5,8 @@ AI Performance Engineer para robótica edge: compresión de modelos,
 aceleración con TensorRT, benchmarking y validación de precisión vs
 eficiencia — orientado a despliegue en hardware NVIDIA Jetson.
 
+<img width="1851" height="903" alt="Captura de pantalla 2026-04-27 043642" src="https://github.com/user-attachments/assets/56f1f03a-bf99-44c6-81da-d28c234a2096" />
+
 ```
 edge_robot_pipeline/
 ├── run_pipeline.py       # ← EMPEZAR AQUÍ: orquesta todos los pasos en orden
