@@ -1,11 +1,8 @@
 """
 validate_accuracy.py — Validación de Precisión vs Eficiencia
 =============================================================
-Relevancia para la vacante (Funditec):
-  "Validación de equilibrio precisión vs eficiencia"
-  "Evaluación comparativa de variantes arquitectónicas equilibrando
-   precisión, complejidad y coste computacional"
-  "Benchmarking comparativo en distintas plataformas hardware"
+Evaluación comparativa de variantes arquitectónicas equilibrando precisión,
+complejidad y coste computacional.
 
 ¿Por qué importa en un robot?
   Comprimir un modelo (cuantización, pruning) siempre intercambia algo de

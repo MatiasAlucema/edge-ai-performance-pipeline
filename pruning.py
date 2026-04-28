@@ -1,8 +1,7 @@
 """
 pruning.py — Pruning Estructurado para Despliegue en Edge
 ==========================================================
-Relevancia para la vacante (Funditec):
-  "Cuantización, pruning y distillation" — este script cubre el pruning.
+Pruning estructurado para despliegue en robótica de bajo consumo.
 
 ¿Por qué pruning en robótica?
   El presupuesto de cómputo de un robot está fijado por su SoC (p. ej. Jetson Orin NX).
@@ -22,8 +21,8 @@ Pruning estructurado vs no estructurado:
 Nota de co-diseño (modelo ↔ hardware):
   El ratio de pruning es consciente del hardware. En el NVDLA del Jetson Orin NX,
   las convoluciones INT8 se procesan en tiles de 16 canales. Podar a múltiplos de
-  16 canales por capa maximiza la utilización del NVDLA. Esto es lo que Funditec
-  entiende por "co-diseño modelo ↔ hardware".
+  16 canales por capa maximiza la utilización del NVDLA. Esto es un ejemplo de
+  co-diseño modelo ↔ hardware.
 """
 
 import torch

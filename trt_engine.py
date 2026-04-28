@@ -1,9 +1,7 @@
 """
 trt_engine.py — Compilación e Inferencia con TensorRT
 ======================================================
-Relevancia para la vacante (Funditec):
-  "Optimización para TensorRT y aceleradores específicos"
-  "Implementación y fine-tuning de arquitecturas orientadas a edge"
+Optimización para TensorRT y aceleradores específicos.
 
 ¿Por qué TensorRT en lugar de ONNX Runtime en Jetson?
   ONNX Runtime con CPUExecutionProvider es genérico — funciona en cualquier

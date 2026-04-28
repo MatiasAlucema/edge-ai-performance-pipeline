@@ -1,14 +1,11 @@
 """
 api.py — Wrapper Mínimo de Inferencia con FastAPI
 ==================================================
-Relevancia para la vacante (Funditec):
-  No aparece directamente en las responsabilidades, pero demuestra
-  arquitectura de software limpia y diseño de API — útil para pruebas de
-  integración y para exponer el pipeline a otros servicios de ROS 2 via HTTP.
+Este wrapper permite exponer el pipeline para desarrollo y pruebas de integración.
 
-  En producción en un robot, el nodo de ROS 2 llama a InferenceEngine
-  directamente (sin overhead de HTTP). Este wrapper existe para desarrollo,
-  testing y para demostrar el pipeline a stakeholders.
+En producción en un robot, el nodo de ROS 2 llama a InferenceEngine
+directamente (sin overhead de HTTP). Este wrapper existe para desarrollo,
+testing y para demostrar el pipeline a stakeholders.
 """
 
 from fastapi import FastAPI, HTTPException
